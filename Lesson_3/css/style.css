@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* {
+    color: red;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+} 
+h1 {
+    color: orange;
+    font-size: 26px;
+    text-align: center;
+}
+h3 {
+    color: blue;
+}
+span {
+    color: chocolate;
+}
+p {
+    color: olive;
+}
+p.desc {
+    color: palegreen; 
+}
+#footer {
+    color: #000;
+}
+.list > li {
+    color: indigo;
+}
+.nav li a {
+    color: teal;
+}
+.subject + * {
+    color: gold;
+}
+h3.caption ~ p {
+    color: lime;
+}
+span.description,
+span.advice {
+    color: magenta;
+}
+.content .advice {
+    color: red;
+}
